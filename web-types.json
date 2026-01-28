@@ -1,0 +1,21 @@
+{
+  "$schema": "",
+  "name": "sms",
+  "framework": "vue",
+  "version": "1.0.0",
+  "contributions": {
+    "html": {
+      "attributes": [
+        {
+          "name": "v-haptic",
+          "source": {
+            "module": "sms",
+            "symbol": "haptic"
+          },
+          "required": false,
+          "description": "haptic telegram"
+        }
+      ]
+    }
+  }
+}
